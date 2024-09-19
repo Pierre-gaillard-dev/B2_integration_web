@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='src/navbar.css'>
 </head>
+
 <body>
     <section id="nav">
         <nav id="nav_bar">
@@ -15,21 +18,23 @@
                 <div class="desktop nav_bar_list">
                     <a href="/">accueil</a>
                     <a href="/blog">blog</a>
+                    <a href="/faq">faq</a>
                     <a href="/calendrier">calendrier</a>
                 </div>
                 <div id="menu_icon_container">
-                    <img id="menu_icon" class="mobile" src="img/icons/menu.svg" onclick="nav_menu.open()"/>
+                    <img id="menu_icon" class="mobile" src="img/icons/menu.svg" onclick="nav_menu.open()" />
                 </div>
             </div>
-        
+
         </nav>
-        
-        
+
+
         <div id="nav_bar_popup" class="mobile closed">
-            <img id="menu_close_button" class="mobile" src="img/icons/x.svg" onclick="nav_menu.close()"/>
+            <img id="menu_close_button" class="mobile" src="img/icons/x.svg" onclick="nav_menu.close()" />
             <div class="nav_bar_list">
                 <a href="/">accueil</a>
                 <a href="/blog">blog</a>
+                <a href="/faq">faq</a>
                 <a href="/calendrier">calendrier</a>
             </div>
         </div>
@@ -37,5 +42,147 @@
 
         <script src="src/navbar.js"></script>
     </section>
+    <section id="hero">
+        <div id="hero_title">
+            <h1>
+                FOYERS MEMO<br />
+                MISSION ETUDIANTE DU MORBIHAN
+            </h1>
+        </div>
+    </section>
+    <section id="presentation">
+        <div class="split">
+            <div class="half">
+                <h2>Qu'est-ce que MEMO ?</h2>
+                <p>
+                    MEMO ou Mission Étudiante du Morbihan, est la
+                    pastorale étudiante du diocèse de Vannes. Notre association
+                    s’adresse à tous les étudiants à la faculté, bts, IUT, prépa ou
+                    école et aux jeunes professionnels qui débutent leur carrière.
+                </p>
+            </div>
+            <div class="half">
+                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section id="envie_habiter">
+        <div class="center">
+            <h2 class="button_style">Envie d’habiter chez nous ?</h2>
+        </div>
+        <div class="split">
+            <div class="third">
+                <img src="img/icons/menu.svg" alt="">
+                <h3>
+                    Lieu de vie familial
+                    et chrétien
+                </h3>
+            </div>
+            <div class="third">
+                <img src="img/icons/menu.svg" alt="">
+                <h3>
+                    Lieu de vie familial
+                    et chrétien
+                </h3>
+            </div>
+            <div class="third">
+                <img src="img/icons/menu.svg" alt="">
+                <h3>
+                    Lieu de vie familial
+                    et chrétien
+                </h3>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="split">
+            <a class="third article" href="/">
+                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="">
+                <h3>Article 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
+                    assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
+                    quidem consequatur.</p>
+            </a>
+            <a class="third article" href="/">
+                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" />
+                <h3>Article 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
+                    assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
+                    quidem consequatur.</p>
+            </a>
+            <a class="third article" href="/">
+                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="">
+                <h3>Article 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
+                    assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
+                    quidem consequatur.</p>
+            </a>
+        </div>
+        <div class="center">
+            <a class="button_style">Voir plus</a>
+        </div>
+    </section>
+    <section id="activites">
+        <h2>Nos activités</h2>
+        <h3>A MEMO, nous proposons plusieurs activités ouvert à tous !</h3>
+        <div class="split">
+            <img class="third" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
+            <img class="third" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
+            <img class="third" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
+        </div>
+        <div class="center">
+            <a href="/activites" class="button_style">Découvrir toutes nos activités</a>
+        </div>
+    </section>
+    <section id="deviens_missionnaire">
+        <div class="split">
+            <div class="half">
+                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
+            </div>
+            <div class="half">
+                <h2>Deviens missionnaire</h2>
+                <div class="center">
+                    <a href="faq" class="button_style">En savoir plus ici</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="split">
+            <img class="third" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
+                alt="">
+            <div class="third">
+                <h2>Nos coordonnées</h2>
+                <a href="tel:0744925352">
+                    <img src="img/icons/menu.svg">
+                    07 44 92 53 52
+                </a>
+                <a href="mailto:memo.bureau@diocese-vannes.fr">
+                    <img src="img/icons/menu.svg">
+                    memo.bureau@diocese-vannes.fr
+                </a>
+            </div>
+            <div class="third">
+                <a href="https://facebook.com">
+                    <img src="img/icons/menu.svg">
+                    MEMO - Mission Étudiante du Morbihan
+                </a>
+                <a href="https://instagram.com">
+                    <img src="img/icons/menu.svg">
+                    memo_vannes
+                </a>
+                <a href="https://instagram.com">
+                    <img src="img/icons/menu.svg">
+                    momo_lorient
+                </a>
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
