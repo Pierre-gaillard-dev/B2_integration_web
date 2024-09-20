@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/faq/main.css'>
+</head>
+<body>
+    <section id="nav"></section>
+        <nav id="nav_bar">
+            <img id="logo" src="../img/Logo_1.png" />
+            <div>
+                <div class="desktop nav_bar_list">
+                    <a href="/">accueil</a>
+                    <a href="/blog">blog</a>
+                    <a href="/faq/index.html">Faq</a>
+                    <a href="/calendrier">calendrier</a>
+                </div>
+                <div id="menu_icon_container">
+                    <img id="menu_icon" class="mobile" src="img/icons/menu.svg" onclick="nav_menu.open()"/>
+                </div>
+            </div>
+        </nav>
+        <div id="nav_bar_popup" class="mobile closed">
+            <img id="menu_close_button" class="mobile" src="img/icons/x.svg" onclick="nav_menu.close()"/>
+            <div class="nav_bar_list">
+                <a href="/">accueil</a>
+                <a href="/blog">blog</a>
+                <a href="/calendrier">calendrier</a>
+            </div>
+        </div>
+        <script src="../src/navbar.js"></script>
+    </section>
+    
+    <div class="all_articles">
+        <div class="articles">
+            <a href="../blog/article1.html"><img class="img_index"
+                    src="Bagad_de_Vannes_Melinerion_-_Olympia_2017_-_26.jpg" /></a>
+            <h3>Le Bagad de Vannes, Gardien de la Tradition Bretonne</h3>
+            <p></p>
+            <a href="../blog/article1.html" class="read_next">Lire la suite →</a>
+        </div>
+        <div class="articles">
+            <a href="../blog/article2.html"><img class="img_index" src="kouign_amann.png" /></a>
+            <h3>La Gastronomie Bretonne : Un Festin d'Authenticité</h3>
+            <p></p>
+            <a href="../blog/article2.html" class="read_next">Lire la suite →</a>
+        </div>
+        <div class="articles">
+            <a href="../blog/article3.html"><img class="img_index"
+                    src="cercle kerlenn pondi.jpg" /></a>
+            <h3>La Danse Bretonne : Un Tourbillon de Tradition et d'Énergie</h3>
+            <p></p>
+            <a href="../blog/article3.html" class="read_next">Lire la suite →</a>
+        </div>
+    </div>
+</body>
+</html>
