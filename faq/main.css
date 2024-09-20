@@ -1,0 +1,30 @@
+.articles {
+    border: solid black 1px;
+    width: 350px;
+    height: 285px;
+    border-radius: 10px;
+}
+
+.articles_petit {
+    border: solid black 1px;
+    width: 300px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+#article {
+    width: 98%;
+    min-height: 50px;
+    resize: vertical;
+}
+
+.all_articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;    
+    border-radius: 10px;
+    margin: auto;
+    justify-content:space-around;
+    }
+
