@@ -1,0 +1,188 @@
+:root {
+    --orange : #e87303;
+    --white : #ffffff;
+    --white-dark : #fff6ec;
+    --black : #000;
+}
+
+@font-face {
+    font-family: "Permanent marker";
+    src: url("src/Permanent_Marker/PermanentMarker-Regular.ttf")
+}
+
+* {
+    font-family: roboto;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Permanent marker";
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--orange);
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.split {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.half {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third {
+    min-width: 100px;
+}
+
+.button_style {
+    padding: 12px 90px;
+    background-color: var(--orange);
+    border-radius: 12px;
+    color: var(--white);
+    font-size: 32px;
+}
+
+#hero {
+    background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    max-height: 80vh;
+    display: flex;
+    align-items: center;
+    max-width: 3000px;
+}
+
+#hero_title {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#presentation, #blog {
+    background-color: var(--white-dark);
+}
+
+#presentation h2 {
+    text-align: left;
+}
+
+#blog .button_style {
+    margin-top: 20px;
+}
+
+.article {
+    border: #ccc 1px solid;
+    border-radius: 12px;
+    overflow: hidden;
+    color: var(--black);
+}
+
+.article p {
+    padding: 12px;
+    margin: 0px 0px 0px 10px;
+}
+
+.article .image {
+    overflow: hidden;
+}
+
+.article img {
+    transition: transform 0.5s;
+}
+
+.article:hover img {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#activites .button_style {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--orange);
+}
+
+
+footer .third {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+}
+
+footer h2, footer p, footer a {
+    color: var(--white);
+    text-align: left;
+}
+
+footer .third > a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 24px;
+    margin-bottom: 40px
+}
+
+footer .third .icone {
+    height: 26px;
+    width: auto;
+}
+
+/*responsive*/
+@media screen and (max-width: 800px) {
+    .split {
+        flex-direction: column;
+    }
+}
