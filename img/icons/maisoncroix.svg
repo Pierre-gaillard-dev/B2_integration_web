@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="532.55469"
+   height="459.79333"
+   viewBox="0 0 532.55469 459.79333"
+   sodipodi:docname="maisoncroix.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath28">
+      <path
+         d="M 0,344.845 H 399.416 V 0 H 0 Z"
+         id="path26" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="maisoncroix"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,459.79333)">
+    <g
+       id="g10"
+       transform="translate(192.197,232.1662)">
+      <path
+         d="M 0,0 -0.21,-72.546"
+         style="fill:none;stroke:#e87303;stroke-width:9;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path12" />
+    </g>
+    <g
+       id="g14"
+       transform="translate(172.5492,209.5334)">
+      <path
+         d="M 0,0 H 39.296"
+         style="fill:none;stroke:#e87303;stroke-width:9;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path16" />
+    </g>
+    <g
+       id="g18"
+       transform="translate(53.3342,216.6417)">
+      <path
+         d="M 0,0 138.863,96.973 277.725,0"
+         style="fill:none;stroke:#e87303;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path20" />
+    </g>
+    <g
+       id="g22">
+      <g
+         id="g24"
+         clip-path="url(#clipPath28)">
+        <g
+           id="g30"
+           transform="translate(300.2012,165.2941)">
+          <path
+             d="m 0,0 v -112.841 c 0,-5.843 -4.144,-10.579 -9.257,-10.579 h -197.494 c -5.113,0 -9.258,4.736 -9.258,10.579 V 0"
+             style="fill:none;stroke:#e87303;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path32" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
