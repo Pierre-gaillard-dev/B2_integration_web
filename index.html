@@ -13,9 +13,9 @@
 <body>
     <section id="nav">
         <nav id="nav_bar">
-            <img id="logo" src="img/Logo_1.png" />
+            <img id="logo" src="img/logo_memo.webp" />
             <div>
-                <div class="desktop nav_bar_list">
+                <div class="desktop" id="nav_bar_list">
                     <a href="/">accueil</a>
                     <a href="/blog">blog</a>
                     <a href="/faq">faq</a>
@@ -30,8 +30,10 @@
 
 
         <div id="nav_bar_popup" class="mobile closed">
-            <img id="menu_close_button" class="mobile" src="img/icons/x.svg" onclick="nav_menu.close()" />
-            <div class="nav_bar_list">
+            <div id="navbar_close_button_container">
+                <img id="menu_close_button" class="mobile" src="img/icons/x.svg" onclick="nav_menu.close()" />
+            </div>
+            <div id="nav_bar_list">
                 <a href="/">accueil</a>
                 <a href="/blog">blog</a>
                 <a href="/faq">faq</a>
@@ -63,37 +65,47 @@
                 </p>
             </div>
             <div class="half">
-                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="">
+                <img src="/img/groupe.webp" alt="">
             </div>
+        </div>
+        <div class="center">
+            <a href="/contact" class="button_style">Envie d’habiter chez nous ?</a>
         </div>
 
     </section>
     <section id="envie_habiter">
-        <div class="center">
-            <h2 class="button_style">Envie d’habiter chez nous ?</h2>
-        </div>
         <div class="split">
             <div class="third">
-                <img src="img/icons/menu.svg" alt="">
+                <img src="img/icons/maisoncroix.svg" alt="">
                 <h3>
                     Lieu de vie familial
                     et chrétien
                 </h3>
             </div>
             <div class="third">
-                <img src="img/icons/menu.svg" alt="">
+                <img src="img/icons/melange_culture.svg" alt="">
                 <h3>
-                    Lieu de vie familial
-                    et chrétien
+                    Mélange des cultures
                 </h3>
             </div>
             <div class="third">
-                <img src="img/icons/menu.svg" alt="">
+                <img src="img/icons/engagement.svg" alt="">
                 <h3>
-                    Lieu de vie familial
-                    et chrétien
+                    Engager les jeunes
                 </h3>
             </div>
+        </div>
+    </section>
+    <section id="activites">
+        <h2>Nos activités</h2>
+        <h3>A MEMO, nous proposons plusieurs activités ouvert à tous !</h3>
+        <div class="split">
+            <img class="third" src="img/surf.webp">
+            <img class="third" src="img/guitare.webp">
+            <img class="third" src="img/rugby.webp">
+        </div>
+        <div class="center">
+            <a href="/activites" class="button_style">Découvrir toutes nos activités</a>
         </div>
     </section>
     <section id="blog">
@@ -101,48 +113,47 @@
         <div class="split">
             <a class="third article" href="/">
                 <div class="image">
-                    <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="">
+                    <img src="img/DSCN8117 copie.webp"
+                        alt="">
                 </div>
-                <h3>Article 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
-                    assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
-                    quidem consequatur.</p>
+                <div>
+                    <h3>Article 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
+                        assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
+                        quidem consequatur.</p>
+                </div>
             </a>
             <a class="third article" href="/">
-                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" />
-                <h3>Article 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
-                    assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
-                    quidem consequatur.</p>
+                <div class="image">
+                <img src="img/memo-lorient-dia-de-muertos-2023-03-autel.webp" />
+                </div>
+                <div>
+                    <h3>Article 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
+                        assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
+                        quidem consequatur.</p>
+                </div>
             </a>
             <a class="third article" href="/">
-                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="">
-                <h3>Article 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
-                    assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
-                    quidem consequatur.</p>
+                <div class="image">
+                <img src="img/soiree_mercredi_soir_MEMO_Vannes.webp" alt="">
+                </div>
+                <div>
+                    <h3>Article 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus mollitia harum facere
+                        assumenda officiis nobis modi dolore quia optio. Facere illum veritatis repellendus iure id est ut
+                        quidem consequatur.</p>
+                </div>
             </a>
         </div>
         <div class="center">
             <a class="button_style" href="/">Voir plus</a>
         </div>
     </section>
-    <section id="activites">
-        <h2>Nos activités</h2>
-        <h3>A MEMO, nous proposons plusieurs activités ouvert à tous !</h3>
-        <div class="split">
-            <img class="third" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
-            <img class="third" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
-            <img class="third" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
-        </div>
-        <div class="center">
-            <a href="/activites" class="button_style">Découvrir toutes nos activités</a>
-        </div>
-    </section>
     <section id="deviens_missionnaire">
         <div class="split">
             <div class="half">
-                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg">
+                <img src="img/groupe2.webp">
             </div>
             <div class="half">
                 <h2>Deviens missionnaire</h2>
@@ -153,12 +164,15 @@
         </div>
 
     </section>
+    <section id="map" class="split">
+        <iframe width="1200" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="maps"
+            src="https://maps.google.com/maps?width=1200&amp;height=400&amp;hl=en&amp;q=35%20Rue%20Jean%20Gougaud%20Vannes+(MEMO)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </section>
 
     <footer>
         <div class="split">
-            <div class="third">
-                <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
-                alt="">
+            <div class="third" id="footer_logo">
+                <img src="img/logo_memo.webp" alt="">
             </div>
             <div class="third">
                 <h2>Nos coordonnées</h2>

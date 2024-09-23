@@ -39,8 +39,7 @@ h2, h3 {
 }
 
 section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 10px;
 }
 
 .center {
@@ -77,6 +76,7 @@ img {
 
 .third {
     min-width: 100px;
+    flex: 1;
 }
 
 .button_style {
@@ -88,9 +88,8 @@ img {
 }
 
 #hero {
-    background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+    background-image: url("img/mont-st-michel.webp");
     background-size: cover;
-    background-position: center;
     height: 750px;
     max-height: 80vh;
     display: flex;
@@ -102,6 +101,8 @@ img {
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    color: var(--white);
+    text-shadow: #000 0px 0px 100px;
 }
 
 #presentation, #blog {
@@ -112,8 +113,24 @@ img {
     text-align: left;
 }
 
+#presentation .button_style {
+    margin-top: 50px;
+}
+
+#envie_habiter .third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#envie_habiter img {
+    max-width: 100%;
+    width: 150px;
+    aspect-ratio: 1/1;
+}
+
 #blog .button_style {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .article {
@@ -146,6 +163,10 @@ img {
     margin-top: 20px;
 }
 
+#map iframe{
+    max-width: 100%;
+}
+
 footer {
     background-color: var(--orange);
 }
@@ -157,9 +178,15 @@ footer .third {
     flex: 1;
 }
 
+#footer_logo {
+    margin: auto;
+}
+
 footer img {
     width: 100%;
     height: auto;
+    align-self: center;
+    margin: 10px;
 }
 
 footer h2, footer p, footer a {
@@ -167,7 +194,7 @@ footer h2, footer p, footer a {
     text-align: left;
 }
 
-footer .third > a {
+footer a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -184,5 +211,35 @@ footer .third .icone {
 @media screen and (max-width: 800px) {
     .split {
         flex-direction: column;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    h1, h2, h3, p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .button_style {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+
+    #envie_habiter {
+        display: none;
+    }
+
+    #blog .article {
+        flex-direction: row;
+    }
+
+    footer a {
+        font-size: 20px;
     }
 }
