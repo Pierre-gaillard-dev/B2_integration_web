@@ -1,0 +1,147 @@
+:root {
+    --orange : #e87303;
+    --white : #ffffff;
+    --white-dark : #fff6ec;
+    --black : #000;
+}
+
+@font-face {
+    font-family: "Permanent marker";
+    src: url("../src/Permanent_Marker/PermanentMarker-Regular.ttf")
+}
+*{
+  font-family: roboto;
+}
+
+
+.embed{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: auto;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+}
+.formulaire_contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.h4 {
+    color: #02041e;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-family: Prompt, sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 1.3;
+}
+
+.form_field {
+    width: 500px;
+    color: #02041e;
+    text-align: left;
+    font-family: Prompt, sans-serif;
+    font-size: 20px;
+    letter-spacing: .5px;
+    border-radius: 15px;
+    height: 45px;
+    padding: 11px;
+    margin-bottom: 10px;  
+    line-height: 1.3;
+    border-color: #000;
+    border-width: 1.6px;
+    border-style: solid;
+}
+
+
+
+.Checkbox {
+    color: #02041e80;
+    font-size: 15px;
+    font-weight: 200px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+#maps{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    padding-top: 50px;}
+
+.button_style {
+
+        font-size: 18px;
+        padding: 12px 24px;
+        background-color: var(--orange);
+        color: white;
+        margin-top: 20px;
+        border-radius: 12px;
+        font-size: 25px;
+        
+
+}
+
+.button_style :onclick{
+
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: var(--orange);
+    color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    font-size: 25px;
+    
+
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.h1_contact{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+
+/*responsive*/
+@media screen and (max-width: 800px) {
+    .split {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    h1, h2, h3, p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .button_style {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+    #contact {
+        flex-direction: column;
+    }
+    .form_field {
+        width: auto;
+    }
+}

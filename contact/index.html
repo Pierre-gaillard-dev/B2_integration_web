@@ -1,0 +1,115 @@
+</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/contact/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/footer.css'>
+
+    <title>Contacter</title>
+</head>
+
+<body>
+    <section id="nav">
+        <nav id="nav_bar">
+            <img id="logo" src="../img/logo_memo.webp" />
+            <div>
+                <div class="desktop" id="nav_bar_list">
+                    <a href="/">accueil</a>
+                    <a href="/blog">blog</a>
+                    <a href="/faq">faq</a>
+                    <a href="/calendrier">calendrier</a>
+                </div>
+                <div id="menu_icon_container">
+                    <img id="menu_icon" class="mobile" src="img/icons/menu.svg" onclick="nav_menu.open()" />
+                </div>
+            </div>
+
+        </nav>
+
+
+        <div id="nav_bar_popup" class="mobile closed">
+            <div id="navbar_close_button_container">
+                <img id="menu_close_button" class="mobile" src="img/icons/x.svg" onclick="nav_menu.close()" />
+            </div>
+            <div id="nav_bar_list">
+                <a href="/">accueil</a>
+                <a href="/blog">blog</a>
+                <a href="/faq">faq</a>
+                <a href="/calendrier">calendrier</a>
+            </div>
+        </div>
+
+
+        <script src="src/navbar.js"></script>
+    </section>
+    <h1 class="h1_contact">Nous contacter</h1>
+    <div class="embed">
+        <iframe src="https://cal.com/paul-emile-robert-jzrqrv" width="1200" height="800"></iframe>
+    </div>
+    <div id="contact">
+        <div class="formulaire_contact">
+            <label for="Prenom" class="h4">Prénom</label>
+            <input class="form_field" maxlength="256" name="Pr-nom" data-name="Prénom" placeholder="" type="text"
+                id="Pr-nom" required="">
+            <label for="Nom" class="h4">Nom</label>
+            <input class="form_field" maxlength="256" name="Nom" data-name="Nom" placeholder="" type="text" id="Nom"
+                required="">
+            <label for="email" class="h4">E-mail</label>
+            <input class="form_field" maxlength="256" name="email" data-name="Email" placeholder="" type="email"
+                id="email" required="">
+            <label for="Objet-du-message" class="h4">Objet de votre demande</label>
+            <textarea id="Objet-du-message" name="Objet-du-message" maxlength="5000" data-name="Objet du message"
+                placeholder="" class="form_field" style="resize:none; min-height: 200px"></textarea>
+            <label class="w-checkbox"><input type="checkbox" name="Checkbox" id="Checkbox" data-name="Checkbox"
+                    required="" class="w-checkbox-input"><span class="Checkbox" for="Checkbox">En cochant cette case,
+                    j'accepte que ces informations soient collectées pour me recontacter ainsi que la politique de
+                    données personnelles de Kapli.</span></label>
+            <a onclick="" class="button_style">Envoyer</a>
+        </div>
+        <section id="maps">
+            <iframe width="1200" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=1200&amp;height=400&amp;hl=en&amp;q=35%20Rue%20Jean%20Gougaud%20Vannes+(MEMO)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </section>
+    </div>
+    <footer>
+        <div class="split">
+            <div class="third" id="footer_logo">
+                <img src="../img/logo_memo.webp" alt="">
+            </div>
+            <div class="third">
+                <h2>Nos coordonnées</h2>
+                <a href="tel:0744925352">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    07 44 92 53 52
+                </a>
+                <a href="mailto:memo.bureau@diocese-vannes.fr">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    memo.bureau@diocese-vannes.fr
+                </a>
+            </div>
+            <div class="third">
+                <h2>Nos réseaux</h2>
+                <a href="https://facebook.com">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    MEMO - Mission Étudiante du Morbihan
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    memo_vannes
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    memo_lorient
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
