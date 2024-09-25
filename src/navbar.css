@@ -1,3 +1,15 @@
+:root {
+    --orange : #e87303;
+    --white : #ffffff;
+    --white-dark : #fff6ec;
+    --black : #000;
+}
+
+@font-face {
+    font-family: "Permanent marker";
+    src: url("src/Permanent_Marker/PermanentMarker-Regular.ttf")
+}
+
 @media screen and (min-width: 500px) {
     #nav_bar_list.desktop {
         display: flex;
