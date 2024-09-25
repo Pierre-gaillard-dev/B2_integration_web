@@ -91,6 +91,7 @@ img {
 #hero {
     background-image: url("img/mont-st-michel.webp");
     background-size: cover;
+    background-position: center;
     height: 500px;
     max-height: 80vh;
     display: flex;
