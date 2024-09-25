@@ -2,7 +2,6 @@ var nav_menu = {
     opened : false,
 
     pop_up : document.getElementById("nav_bar_popup"),
-    lists : document.getElementsByClassName("nav_bar_list"),
 
     toogle : function() {
         if (this.opened) {
@@ -28,7 +27,6 @@ var nav_menu = {
 
     init : function() {
         this.pop_up = document.getElementById("nav_bar_popup");
-        this.lists = document.getElementsByClassName("nav_bar_list");
     }
 }
 
