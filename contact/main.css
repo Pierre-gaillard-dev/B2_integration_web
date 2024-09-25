@@ -107,6 +107,12 @@
     margin: auto;
 }
 
+.h1_contact{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
 
 
 /*responsive*/
