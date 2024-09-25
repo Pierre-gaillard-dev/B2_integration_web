@@ -7,7 +7,8 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     gap: 50px;
-
+    max-width: 1200px;
+    margin: auto;
 }
 
 .third {
@@ -42,7 +43,8 @@ footer a {
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: 24px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    align-items: center;
 }
 
 footer .third .icone {
