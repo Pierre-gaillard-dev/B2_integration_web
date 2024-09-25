@@ -124,6 +124,6 @@ nav {
 
 #logo {
     width: 100px;
-    max-width: 20%;
     right: 0;
+    aspect-ratio: auto;
 }
