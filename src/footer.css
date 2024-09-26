@@ -1,3 +1,19 @@
+:root {
+    --orange : #e87303;
+    --white : #ffffff;
+    --white-dark : #fff6ec;
+    --black : #000;
+}
+
+@font-face {
+    font-family: "Permanent marker";
+    src: url("src/Permanent_Marker/PermanentMarker-Regular.ttf")
+}
+
+* {
+    font-family: roboto;
+}
+
 footer {
     background-color: var(--orange);
 }
@@ -44,8 +60,12 @@ footer a {
     flex-direction: row;
     flex-wrap: nowrap;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     align-items: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 footer .third .icone {

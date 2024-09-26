@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel='stylesheet' type='text/css' media='screen' href='../src/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/footer.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="../src/navbar.js" defer></script>
 </head>
 
 <body>
     <section id="nav">
         <nav id="nav_bar">
-            <img id="logo" src="../img/logo_memo.webp" />
+            <a href="../"><img id="logo" src="../img/logo_memo.webp" /></a>
             <div>
                 <div class="desktop" id="nav_bar_list">
                     <a href="../">Accueil</a>
-                    <a href="../activites">Activites</a>
+                    <a href="../activites">Activités</a>
                     <a href="../blog">Blog</a>
                     <a href="../faq">Faq</a>
                     <a href="../contact">Contact</a>
@@ -35,15 +37,12 @@
             </div>
             <div id="nav_bar_list">
                 <a href="../">Accueil</a>
-                <a href="../activites">Activites</a>
+                <a href="../activites">Activitéés</a>
                 <a href="../blog">Blog</a>
                 <a href="../faq">Faq</a>
                 <a href="../contact">Contact</a>
             </div>
         </div>
-
-
-        <script src="../src/navbar.js"></script>
     </section>
 
 
@@ -88,6 +87,41 @@
             </a>
         </div>
     </section>
+
+    <footer>
+        <div class="split">
+            <div class="third" id="footer_logo">
+                <a href="../"><img src="../img/logo_memo.webp" alt="Logo de Memo"></a>
+            </div>
+            <div class="third">
+                <h2>Nos coordonnées</h2>
+                <a href="tel:0744925352">
+                    <img src="../img/icons/phone.svg" class="icone" alt="tel">
+                    07 44 92 53 52
+                </a>
+                <a href="mailto:memo.bureau@diocese-vannes.fr">
+                    <img src="../img/icons/mail.svg" class="icone" alt="mail">
+                    memo.bureau@diocese-vannes.fr
+                </a>
+            </div>
+            <div class="third">
+                <h2>Nos réseaux</h2>
+                <a href="https://facebook.com">
+                    <img src="../img/icons/facebook.svg" class="icone" alt="facebook">
+                    MEMO - Mission Étudiante du Morbihan
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/instagram.svg" class="icone" alt="instagram">
+                    memo_vannes
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/instagram.svg" class="icone" alt="instagram">
+                    momo_lorient
+                </a>
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
