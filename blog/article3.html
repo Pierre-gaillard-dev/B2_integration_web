@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="Article 3 MEMO" content="Article de MEMO qui décris les soirées du mercredi soir à MEMO">
+
+    <title>Article3 - MEMO</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../blog/detail_article.css'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="../src/navbar.js" defer></script>
 </head>
+
 <body>
-    
+    <section id="nav">
+        <nav id="nav_bar">
+            <a href="../"><img id="logo" src="../img/logo_memo.webp" alt="Logo MEMO"/></a>
+            <div>
+                <div class="desktop" id="nav_bar_list">
+                    <a href="../">Accueil</a>
+                    <a href="../activites">Activités</a>
+                    <a href="../blog">Blog</a>
+                    <a href="../faq">Faq</a>
+                    <a href="../contact">Contact</a>
+                </div>
+                <div id="menu_icon_container">
+                    <img id="menu_icon" class="mobile" src="../img/icons/menu.svg" onclick="nav_menu.open()" alt="Logo menu burger"/>
+                </div>
+            </div>
+
+        </nav>
+
+
+        <div id="nav_bar_popup" class="mobile closed">
+            <div id="navbar_close_button_container">
+                <img id="menu_close_button" class="mobile" src="../img/icons/x.svg" onclick="nav_menu.close()" alt="Logo menu burger"/>
+            </div>
+            <div id="nav_bar_list">
+                <a href="../">Accueil</a>
+                <a href="../activites">Activitéés</a>
+                <a href="../blog">Blog</a>
+                <a href="../faq">Faq</a>
+                <a href="../contact">Contact</a>
+            </div>
+        </div>
+    </section>
+
+
+   <section id="detail_blog">
+    <div class="split">
+        <div class="half">
+            <img src="../img/soiree_mercredi_soir_MEMO_Vannes.webp" alt="Soirée du mercredi soir MEMO" id="">
+        </div>
+        <div class="half">
+            <h2>Soirée du mercredi soir à MEMO</h2>
+            <p>
+                Tous les mercredis soirs, tu peux participer à la soirée de l’Aumônerie des étudiants. C’est un
+                moment de vie spirituelle (messe à 18h30), de formation intellectuelle (topo à 19h30), et aussi un
+                temps convivial autour d'un excellent repas ( à 20h30) !
+                </br>Les sujets des topos sont des grandes questions de société, abordées d'un point de vue
+                philosophique et chrétien et appuyés par l'intervention de quelques grands témoins, dans la
+                perspective de te donner des repères solides dans le monde. Par exemple: l'amitié véritable,
+                l'éloquence, le bien commun, le courage, choisir un métier etc...
+                </br>L’aumônerie des étudiants de Lorient se trouve à la paroisse sainte Bernadette, et l’aumônerie
+                des étudiants de Vannes se trouve dans l'ancien Carmel (rue Jean Gougaud).
+            </p>
+        </div>
+    </div>
+    <div class="paragraphe">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt illum voluptate ducimus maxime magni, facilis debitis, reiciendis veritatis numquam voluptas quas temporibus voluptatem dolorum placeat ea doloremque fuga omnis aut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt illum voluptate ducimus maxime magni, facilis debitis, reiciendis veritatis numquam voluptas quas temporibus voluptatem dolorum placeat ea doloremque fuga omnis aut!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt illum voluptate ducimus maxime magni, facilis debitis, reiciendis veritatis numquam voluptas quas temporibus voluptatem dolorum placeat ea doloremque fuga omnis aut!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt illum voluptate ducimus maxime magni, facilis debitis, reiciendis veritatis numquam voluptas quas temporibus voluptatem dolorum placeat ea doloremque fuga omnis aut!</p>
+    </div>
+   </section>
+
+    <footer>
+        <div class="split">
+            <div class="third" id="footer_logo">
+                <a href="../"><img src="../img/logo_memo.webp" alt="Logo de Memo"></a>
+            </div>
+            <div class="third">
+                <h2>Nos coordonnées</h2>
+                <a href="tel:0744925352">
+                    <img src="../img/icons/phone.svg" class="icone" alt="tel">
+                    07 44 92 53 52
+                </a>
+                <a href="mailto:memo.bureau@diocese-vannes.fr">
+                    <img src="../img/icons/mail.svg" class="icone" alt="mail">
+                    memo.bureau@diocese-vannes.fr
+                </a>
+            </div>
+            <div class="third">
+                <h2>Nos réseaux</h2>
+                <a href="https://facebook.com">
+                    <img src="../img/icons/facebook.svg" class="icone" alt="facebook">
+                    MEMO - Mission Étudiante du Morbihan
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/instagram.svg" class="icone" alt="instagram">
+                    memo_vannes
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/instagram.svg" class="icone" alt="instagram">
+                    momo_lorient
+                </a>
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>

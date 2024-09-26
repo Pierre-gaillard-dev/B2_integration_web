@@ -1,0 +1,22 @@
+* {
+    font-family: roboto;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.paragraphe{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
