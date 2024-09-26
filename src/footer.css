@@ -1,3 +1,10 @@
+:root {
+    --orange : #e87303;
+    --white : #ffffff;
+    --white-dark : #fff6ec;
+    --black : #000;
+}
+
 footer {
     background-color: var(--orange);
 }
