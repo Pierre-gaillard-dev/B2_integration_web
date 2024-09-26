@@ -1,0 +1,109 @@
+:root {
+    --orange : #e87303;
+    --white : #ffffff;
+    --white-dark : #fff6ec;
+    --black : #000;
+}
+
+html, body {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+@font-face {
+    font-family: "Permanent marker";
+    src: url("../src/Permanent_Marker/PermanentMarker-Regular.ttf")
+}
+
+* {
+    font-family: roboto;
+}
+.block_background{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/we_integration_MEMO-min.webp);
+    background-size: cover;
+    background-position: 0% 65%;
+
+}
+.background_overlay{
+    background-color: rgba(0, 0, 0, 0.608);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.hero_title{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    color: var(--white);
+    text-shadow: #000 0px 0px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.hero_title h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1 {
+    font-family: "Permanent marker";
+    font-weight: 300;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--orange);
+}
+
+.split {
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.half {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#activite{
+    padding: 50px;
+}
+
+#presentation h2 {
+    text-align: left;
+}
+
+.br{
+    margin: 50px;
+}
+
+#activite_background{
+    background-color: var(--white-dark);
+    padding: 50px
+}

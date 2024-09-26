@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../src/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/activites/main.css'>
+    <title>Activités</title>
+</head>
+
+<body>
+    <section id="nav">
+        <nav id="nav_bar">
+            <img id="logo" src="../img/logo_memo.webp" />
+            <div>
+                <div class="desktop" id="nav_bar_list">
+                    <a href="/">Accueil</a>
+                    <a href="/activites">Activites</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/faq">Faq</a>
+                    <a href="/contact">Contact</a>
+                </div>
+                <div id="menu_icon_container">
+                    <img id="menu_icon" class="mobile" src="../img/icons/menu.svg" onclick="nav_menu.open()" />
+                </div>
+            </div>
+
+        </nav>
+
+
+        <div id="nav_bar_popup" class="mobile closed">
+            <div id="navbar_close_button_container">
+                <img id="menu_close_button" class="mobile" src="../img/icons/x.svg" onclick="nav_menu.close()" />
+            </div>
+            <div id="nav_bar_list">
+                <a href="/">Accueil</a>
+                <a href="/activites">Activites</a>
+                <a href="/blog">Blog</a>
+                <a href="/faq">Faq</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+
+
+        <script src="../src/navbar.js"></script>
+    </section>
+    <section class="hero">
+        <div class="block_background">
+            <div class="background_overlay">
+                <div class="hero_title">
+                    <h1>NOS ACTIVITÉES</h1>
+                </div>
+            </div>
+    </section>
+    <section id="activite">
+        <div class="split">
+            <div class="half">
+                <h2>La soirée de l’aumônerie des Étudiants</h2>
+                <p>
+                    Tous les mercredis soirs, tu peux participer à la soirée de l’Aumônerie des étudiants. C’est un
+                    moment de vie spirituelle (messe à 18h30), de formation intellectuelle (topo à 19h30), et aussi un
+                    temps convivial autour d'un excellent repas ( à 20h30) !
+                    </br>Les sujets des topos sont des grandes questions de société, abordées d'un point de vue
+                    philosophique et chrétien et appuyés par l'intervention de quelques grands témoins, dans la
+                    perspective de te donner des repères solides dans le monde. Par exemple: l'amitié véritable,
+                    l'éloquence, le bien commun, le courage, choisir un métier etc...
+                    </br>L’aumônerie des étudiants de Lorient se trouve à la paroisse sainte Bernadette, et l’aumônerie
+                    des étudiants de Vannes se trouve dans l'ancien Carmel (rue Jean Gougaud).
+                </p>
+            </div>
+            <div class="half">
+                <img src="../img/WEI_MEMO.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="activite_background">
+        <div class="split">
+            <div class="half">
+                <img src="../img/Week_End_Inte.webp" alt="">
+            </div>
+            <div class="half">
+                <h2>Week-end d'intégration des foyers</h2>
+                <p>3 foyers sont présents dnas le Morbihan, Vannes Lorient et Ploërmel avec un cumule de 70 étudiants
+                    logés
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="activite"></section>
+    <div class="split">
+        <div class="half">
+            <h2>Pèlerinage de Chartres</h2>
+            <p>
+                Un chapitre "MEMO" participe tous les ans au pèlerinage de chartres. Les résidents ou extérieurs y sont
+                invités !
+            </p>
+        </div>
+        <div class="half">
+            <img src="../img/Pelerinage_de_Chartres.webp" alt="">
+        </div>
+    </div>
+    </section>
+    <div class="br"></div>
+
+    <footer>
+        <div class="split">
+            <div class="third" id="footer_logo">
+                <img src="../img/logo_memo.webp" alt="">
+            </div>
+            <div class="third">
+                <h2>Nos coordonnées</h2>
+                <a href="tel:0744925352">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    07 44 92 53 52
+                </a>
+                <a href="mailto:memo.bureau@diocese-vannes.fr">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    memo.bureau@diocese-vannes.fr
+                </a>
+            </div>
+            <div class="third">
+                <h2>Nos réseaux</h2>
+                <a href="https://facebook.com">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    MEMO - Mission Étudiante du Morbihan
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    memo_vannes
+                </a>
+                <a href="https://instagram.com">
+                    <img src="../img/icons/menu.svg" class="icone">
+                    momo_lorient
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
