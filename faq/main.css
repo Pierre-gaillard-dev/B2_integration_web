@@ -23,6 +23,13 @@ html, body {
 h1 {
     font-family: "Permanent marker";
     font-weight: 300;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    color: var(--white);
+    text-shadow: #000 0px 0px 100px;
+    font-size: 65px;
 }
 
 h2 {
@@ -34,12 +41,23 @@ h3 {
     font-size: 32px;
 }
 
-h2, h3 {
+h2 {
     text-align: center;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 section {
     padding: 50px 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 .center {
@@ -51,17 +69,72 @@ section {
 .split {
     max-width: 1200px;
     margin: auto;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-.split {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 50px;
+}
 
+.half {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#nav, #hero {
+    width: 100vw;
+    max-width: unset;
+    margin: 0;
+}
+
+#hero {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/groupe.webp");
+    background-size: cover;
+    align-items: center;
+}
+
+#presentation img {
+    height: 100%;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: left;
+}
+
+#presentation_paragraphe {
+    flex: 2;
+}
+
+.question_container {
+    display: block;
+    background-color: var(--white-dark);
+    border: 1px solid #ffe6dC;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.question_container .question {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question_container img {
+    stroke: #000;
+    height: 100%;
+    width: auto;
+}
+
+.closed .reponse {
+    display: none;
 }
