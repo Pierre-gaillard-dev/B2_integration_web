@@ -5,6 +5,7 @@
     <title>Contact - MEMO</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Page de contact" content="Page de contact, possibilité d'envoyer un message, et prendre un rendez-vous">
     <link rel='stylesheet' type='text/css' media='screen' href='../src/navbar.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/contact/main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../src/footer.css'>
@@ -14,7 +15,7 @@
 <body>
     <section id="nav">
         <nav id="nav_bar">
-            <a href="../"><img id="logo" src="../img/logo_memo.webp" /></a>
+            <a href="../"><img id="logo" src="../img/logo_memo.webp" alt="Logo MEMO"/></a>
             <div>
                 <div class="desktop" id="nav_bar_list">
                     <a href="../">Accueil</a>
@@ -24,7 +25,7 @@
                     <a href="../contact">Contact</a>
                 </div>
                 <div id="menu_icon_container">
-                    <img id="menu_icon" class="mobile" src="../img/icons/menu.svg" onclick="nav_menu.open()" />
+                    <img id="menu_icon" class="mobile" src="../img/icons/menu.svg" onclick="nav_menu.open()" alt="Menu burger"/>
                 </div>
             </div>
 
@@ -52,7 +53,7 @@
         <div class="formulaire_contact">
             <label for="Prenom" class="h4">Prénom</label>
             <input class="form_field" maxlength="256" name="Pr-nom" data-name="Prénom" placeholder="" type="text"
-                id="Pr-nom" required="">
+                id="Prenom" required="">
             <label for="Nom" class="h4">Nom</label>
             <input class="form_field" maxlength="256" name="Nom" data-name="Nom" placeholder="" type="text" id="Nom"
                 required="">
@@ -66,11 +67,11 @@
                     required="" class="w-checkbox-input"><span class="Checkbox" for="Checkbox">En cochant cette case,
                     j'accepte que ces informations soient collectées pour me recontacter ainsi que la politique de
                     données personnelles de Kapli.</span></label>
-            <a onclick="" class="button_style">Envoyer</a>
+            <a href="../index.html" class="button_style">Envoyer</a>
         </div>
         <div id="maps">
             <iframe width="1200" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                src="https://maps.google.com/maps?width=1200&amp;height=400&amp;hl=en&amp;q=35%20Rue%20Jean%20Gougaud%20Vannes+(MEMO)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                src="https://maps.google.com/maps?width=1200&amp;height=400&amp;hl=en&amp;q=35%20Rue%20Jean%20Gougaud%20Vannes+(MEMO)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><h2>Contact</h2></iframe>
         </div>
     </section>
 

@@ -86,3 +86,9 @@ img {
 }
 
 
+/*responsive*/
+@media screen and (max-width: 800px) {
+    .split {
+        flex-direction: column;
+    }
+}
