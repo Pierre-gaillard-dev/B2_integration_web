@@ -13,6 +13,11 @@
   font-family: roboto;
 }
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 
 .embed{
     display: flex;
