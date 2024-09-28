@@ -1,8 +1,8 @@
 :root {
-    --orange : #e87303;
-    --white : #ffffff;
-    --white-dark : #fff6ec;
-    --black : #000;
+    --orange: #e87303;
+    --white: #ffffff;
+    --white-dark: #fff6ec;
+    --black: #000;
 }
 
 @font-face {
@@ -50,7 +50,9 @@ footer img {
     color: white;
 }
 
-footer h2, footer p, footer a {
+footer h2,
+footer p,
+footer a {
     color: var(--white);
     text-align: left;
 }
@@ -76,5 +78,9 @@ footer .third .icone {
 @media screen and (max-width: 800px) {
     footer a {
         font-size: 20px;
+    }
+
+    footer .split {
+        flex-direction: column;
     }
 }
