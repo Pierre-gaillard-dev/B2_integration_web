@@ -211,6 +211,10 @@ img {
     }
 
     #blog .article {
+        max-height: 150px;
+    }
+
+    #blog .article {
         display: flex;
         flex-direction: row;
     }
@@ -221,5 +225,10 @@ img {
 
     #blog .image {
         aspect-ratio: 3/2;
+    }
+
+    #blog p {
+        max-height: 0;
+        text-overflow: ellipsis;
     }
 }
