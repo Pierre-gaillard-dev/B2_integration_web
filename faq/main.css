@@ -99,6 +99,7 @@ img {
     justify-content: center;
     background-image: url("../img/groupe.webp");
     background-size: cover;
+    background-position: center;
     align-items: center;
 }
 
@@ -127,14 +128,27 @@ img {
     height: 50px;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .question_container img {
     stroke: #000;
     height: 100%;
     width: auto;
+    transform: rotate(180deg);
+    transition-duration: 0.3s;
+}
+
+.question_container.closed img {
+    transform: rotate(0deg);
+}
+
+.reponse {
+    overflow: hidden;
+    max-height: 1000px;
+    transition: 3s ease-out;
 }
 
 .closed .reponse {
-    display: none;
+    max-height: 0px;
 }
